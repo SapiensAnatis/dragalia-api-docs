@@ -56,7 +56,7 @@ Response
 
 .. code-block:: json
 
-    {
+   {
         'data_headers': {
             'result_code': 1
         },
@@ -94,7 +94,7 @@ Response
                 },
                 {
                     'region': 'tw',
-                    'lang': 'ja_jp',
+                    'lang': 'ja_jp', 
                     'eula_version': 2,
                     'privacy_policy_version': 2
                 },

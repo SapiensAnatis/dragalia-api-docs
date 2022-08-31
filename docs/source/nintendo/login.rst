@@ -1,5 +1,5 @@
 /core/v1/gateway/sdk/login
-===========================
+==============================
 
 - Base address: https://48cc81cdb8de30e061928f56e9bd4b4d.baas.nintendo.com
 - Method: POST
@@ -44,7 +44,7 @@ Request body
     }
 
 Response headers
-----------------
+-------------------
 
 .. code-block:: text
 
