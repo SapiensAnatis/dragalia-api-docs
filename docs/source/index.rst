@@ -12,8 +12,8 @@ Contents
 
 .. toctree::
 
-   nintendo
-      analytics
-   eula
-      get_version_list
+   get_version_list
+   analytics
+   login
+   
    
