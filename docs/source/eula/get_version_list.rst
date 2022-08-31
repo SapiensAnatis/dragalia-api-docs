@@ -397,5 +397,6 @@ Response
     }
 
 Notes:
+--------
 
 - See also /eula/get_version <get_version.rst>

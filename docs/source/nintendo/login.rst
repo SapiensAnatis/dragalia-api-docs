@@ -9,7 +9,7 @@ Request headers
 ----------------
 
 .. code-block:: text
-    
+
     Content-Type: application/json
     User-Agent: com.nintendo.zaga/2.19.0 ONEPLUS A6003/11 NPFSDK/Unity-2.33.0-0a4be7c8
     Accept-Language: en-US; q=1, en; q=0.5, *; q=0.001
@@ -100,6 +100,7 @@ Response
     }
 
 Notes:
+-------
 
-- This is after selecting 'link later', which may explain the empty/null fields -- there is no Nintendo account associated, so it seems dummy data is used.
+- The response is after selecting 'link later', which may explain the empty/null fields -- there is no Nintendo account associated, so it seems dummy data is used.
 - The `accessToken` appears in the request header of other requests, e.g. to /eula/get_version_list, as the value for the field `ID-TOKEN`

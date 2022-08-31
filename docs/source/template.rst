@@ -1,4 +1,4 @@
-/endpoint/
+API endpoint template
 ================
 
 - Base address: *Top-level domain of API*
@@ -38,5 +38,6 @@ Response
     }
 
 Notes:
+------
 
 - Write down any remarks or comments here
