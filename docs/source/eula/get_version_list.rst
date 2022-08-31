@@ -1,11 +1,13 @@
 /eula/get_version_list
-===
+=======================
+
 Base address: production-api.dragalialost.com/2.19.0_20220714193707
 Method: POST
 Status code: 200
 
 Request headers
----
+----------------
+
 .. code-block:: text
 Host: production-api.dragalialost.com
 User-Agent: UnityPlayer/2019.4.31f1 (UnityWebRequest/1.0, libcurl/7.75.0-DEV)
@@ -27,13 +29,15 @@ X-Unity-Version: 2019.4.31f1
 Content-Length: 1
 
 Request body
----
+-------------
+
 .. code-block:: json
 {
 }
 
 Response headers
----
+------------------
+
 .. code-block:: text
 Content-Type: application/x-msgpack
 Access-Control-Allow-Origin: *
@@ -45,7 +49,8 @@ Date: Wed, 31 Aug 2022 19:24:52 GMT
 Connection: keep-alive
 
 Response
----
+-------------
+
 .. code-block:: json
 {
     'data_headers': {
