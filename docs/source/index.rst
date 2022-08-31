@@ -7,15 +7,26 @@ This repository is meant to provide info about the API used by Dragalia Lost, i.
 
    This project is under active development.
 
-Contents
+Dragalia Lost endpoints
 --------
 
 .. toctree::
    :maxdepth: 2
    :glob:
 
-   template.rst
    eula/*
+
+Nintendo endpoints
+----
+
+.. toctree::
+   :glob:
    nintendo/*
-   
-   
+
+
+Contributing
+----
+Refer to here for information on contributing to this documentation.
+
+.. toctree::
+   template.rst
