@@ -11,9 +11,11 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :glob:
 
-   get_version_list
-   analytics
-   login
+   template.rst
+   eula/*
+   nintendo/*
    
    
