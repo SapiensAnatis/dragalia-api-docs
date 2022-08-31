@@ -11,23 +11,26 @@ Dragalia Lost endpoints
 ------------------------
 
 .. toctree::
-   :maxdepth: 2
-   :glob:
-   eula/*
+   :maxdepth: 3
+   eula/get_version
+   eula/get_version_list
 
 Nintendo endpoints
 -------------------
 
 .. toctree::
-   :maxdepth: 2
-   :glob:
-   nintendo/*
+   :maxdepth: 3
+   nintendo/analytics
+   nintendo/analytics_events_config
+   nintendo/login
+
 
 
 Contributing
 --------------
+
 Refer to here for information on contributing to this documentation.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    template
