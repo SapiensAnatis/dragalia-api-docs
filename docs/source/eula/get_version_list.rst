@@ -9,6 +9,7 @@ Request headers
 ----------------
 
 .. code-block:: text
+
     Host: production-api.dragalialost.com
     User-Agent: UnityPlayer/2019.4.31f1 (UnityWebRequest/1.0, libcurl/7.75.0-DEV)
     Accept: */*
@@ -32,6 +33,7 @@ Request body
 -------------
 
 .. code-block:: json
+
     {
     }
 
@@ -39,6 +41,7 @@ Response headers
 ------------------
 
 .. code-block:: text
+
     Content-Type: application/x-msgpack
     Access-Control-Allow-Origin: *
     Content-Length: 3355
@@ -52,6 +55,7 @@ Response
 -------------
 
 .. code-block:: json
+
     {
         'data_headers': {
             'result_code': 1
@@ -393,4 +397,5 @@ Response
     }
 
 Notes:
+
 - See also /eula/get_version <get_version.rst>
