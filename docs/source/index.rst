@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
+Dragalia Lost API documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This repository is meant to provide info about the API used by Dragalia Lost, i.e. typical requests and the responses that the server gives for them, for reverse engineering purposes
 
 .. note::
 
@@ -18,5 +12,8 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   nintendo
+      analytics
+   eula
+      get_version_list
+   
