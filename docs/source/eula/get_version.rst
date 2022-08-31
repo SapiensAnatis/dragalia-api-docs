@@ -1,5 +1,5 @@
 /eula/get_version
-================
+====================
 
 - Base address: production-api.dragalialost.com/2.19.0_20220714193707
 - Method: POST

@@ -1,5 +1,5 @@
 API endpoint template
-================
+=======================
 
 - Base address: *Top-level domain of API*
 - Method: *POST/GET/whatever*
