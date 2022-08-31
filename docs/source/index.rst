@@ -8,7 +8,7 @@ This repository is meant to provide info about the API used by Dragalia Lost, i.
    This project is under active development.
 
 Dragalia Lost endpoints
---------
+------------------------
 
 .. toctree::
    :maxdepth: 2
@@ -16,7 +16,7 @@ Dragalia Lost endpoints
    eula/*
 
 Nintendo endpoints
-------------
+-------------------
 
 .. toctree::
    :maxdepth: 2
@@ -25,7 +25,7 @@ Nintendo endpoints
 
 
 Contributing
--------------
+--------------
 Refer to here for information on contributing to this documentation.
 
 .. toctree::
