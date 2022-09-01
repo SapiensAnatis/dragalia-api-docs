@@ -24,10 +24,6 @@ Contents
 
    nintendo/*
 
-Contributing
---------------
-
-Refer to here for information on contributing to this documentation.
 
 .. toctree::
    :maxdepth: 1
