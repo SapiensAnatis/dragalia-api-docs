@@ -1,0 +1,69 @@
+/deploy/get_deploy_version
+===========================
+
+- Base address: production-api.dragalialost.com/2.19.0_20220714193707
+- Method: POST
+- Status code: 200
+
+Request headers
+----------------
+
+.. code-block:: text
+
+    Host: production-api.dragalialost.com
+    User-Agent: UnityPlayer/2019.4.31f1 (UnityWebRequest/1.0, libcurl/7.75.0-DEV)
+    Accept: */*
+    Accept-Encoding: deflate, gzip
+    App-Ver: 2.19.0
+    Device: 2
+    Platform: 2
+    Carrier: OnePlus
+    DeviceId: 94e58eeb39e0f05c528aa0582d4032f8
+    DeviceName: OnePlus ONEPLUS A6003
+    OS-Version: Android OS 11 / API-30 (RQ3A.210905.001/3c09da6222)
+    GraphicsDeviceName: Adreno (TM) 540
+    SID: 455da64045a2a9844632eb1e48b53dfbcb7d22dbca8f3cb5a20e0055750f6270
+    Request-Token: 27883386022398754
+    Request-Time: 1661979319
+    Content-Type: application/octet-stream
+    X-Unity-Version: 2019.4.31f1
+    Content-Length: 76
+
+Request body
+----------------
+
+.. code-block:: json
+
+    {
+    }
+
+Response headers
+----------------
+
+.. code-block:: text
+
+    Content-Type: application/x-msgpack
+    Access-Control-Allow-Origin: *
+    Content-Length: 172
+    Expires: Wed, 31 Aug 2022 20:55:19 GMT
+    Cache-Control: max-age=0, no-cache, no-store
+    Pragma: no-cache
+    Date: Wed, 31 Aug 2022 20:55:19 GMT
+    Connection: keep-alive
+
+Response
+----------------
+
+.. code-block:: json
+
+    {
+        "data_headers": {
+            "result_code": 1
+        },
+        "data": {
+            "deploy_hash": "13bb2827ce9e6a66015ac2808112e3442740e862"
+        }
+    }
+
+Notes:
+------

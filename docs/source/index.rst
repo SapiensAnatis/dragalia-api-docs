@@ -12,19 +12,18 @@ Dragalia Lost endpoints
 
 .. toctree::
    :maxdepth: 1
+   :glob:
    
-   eula/get_version_list.rst
-   eula/get_version.rst
+   dragalia/*
 
 Nintendo endpoints
 -------------------
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
-   nintendo/analytics.rst
-   nintendo/analytics_events_config.rst
-   nintendo/login.rst
+   nintendo/*
 
 
 
