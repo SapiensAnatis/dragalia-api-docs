@@ -20,9 +20,7 @@ Request headers
 Request body
 ----------------
 
-.. code-block:: json
-
-    null
+Empty
 
 Response headers
 ----------------
