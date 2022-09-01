@@ -1,5 +1,5 @@
-/bigdata/v1/analytics/
-========================
+/bigdata/v1/analytics/events
+=============================
 
 - Base address: 48cc81cdb8de30e061928f56e9bd4b4d.baas.nintendo.com
 - Method: POST
