@@ -58,7 +58,7 @@ Response
 
 .. note:: 
 
-    The following JSON response, in its original form, was 200kb in size and over 12,000 lines long. For the sake of brevity, excessively long arrays have been reduced to a single element which is hopefully enough to illustrate the response format. Where arrays have been trimmed, this is indicated by a comment; these did not appear in the original response. You can view the raw unabridged file here: <https://raw.githubusercontent.com/SapiensAnatis/dragalia-api-docs/blob/main/docs/source/dragalia/savefile.json>
+    The following JSON response contained a great deal of repetitive data (originally ~200kb and ~12k lines), so some long arrays have been trimmed. You can view the raw unabridged file here: <https://raw.githubusercontent.com/SapiensAnatis/dragalia-api-docs/blob/main/docs/source/dragalia/savefile.json>
 
 
 .. code-block:: javascript
@@ -526,130 +526,7 @@ Response
                     "slot": 1,
                     "stamp_id": 10001
                 },
-                {
-                    "slot": 2,
-                    "stamp_id": 10002
-                },
-                {
-                    "slot": 3,
-                    "stamp_id": 10003
-                },
-                {
-                    "slot": 4,
-                    "stamp_id": 10004
-                },
-                {
-                    "slot": 5,
-                    "stamp_id": 10005
-                },
-                {
-                    "slot": 6,
-                    "stamp_id": 10006
-                },
-                {
-                    "slot": 7,
-                    "stamp_id": 10007
-                },
-                {
-                    "slot": 8,
-                    "stamp_id": 10008
-                },
-                {
-                    "slot": 9,
-                    "stamp_id": 10009
-                },
-                {
-                    "slot": 10,
-                    "stamp_id": 10010
-                },
-                {
-                    "slot": 11,
-                    "stamp_id": 10011
-                },
-                {
-                    "slot": 12,
-                    "stamp_id": 10012
-                },
-                {
-                    "slot": 13,
-                    "stamp_id": 10013
-                },
-                {
-                    "slot": 14,
-                    "stamp_id": 10014
-                },
-                {
-                    "slot": 15,
-                    "stamp_id": 10015
-                },
-                {
-                    "slot": 16,
-                    "stamp_id": 10016
-                },
-                {
-                    "slot": 17,
-                    "stamp_id": 10017
-                },
-                {
-                    "slot": 18,
-                    "stamp_id": 10018
-                },
-                {
-                    "slot": 19,
-                    "stamp_id": 10019
-                },
-                {
-                    "slot": 20,
-                    "stamp_id": 10020
-                },
-                {
-                    "slot": 21,
-                    "stamp_id": 10021
-                },
-                {
-                    "slot": 22,
-                    "stamp_id": 10022
-                },
-                {
-                    "slot": 23,
-                    "stamp_id": 10023
-                },
-                {
-                    "slot": 24,
-                    "stamp_id": 10024
-                },
-                {
-                    "slot": 25,
-                    "stamp_id": 10025
-                },
-                {
-                    "slot": 26,
-                    "stamp_id": 10026
-                },
-                {
-                    "slot": 27,
-                    "stamp_id": 10027
-                },
-                {
-                    "slot": 28,
-                    "stamp_id": 10028
-                },
-                {
-                    "slot": 29,
-                    "stamp_id": 10029
-                },
-                {
-                    "slot": 30,
-                    "stamp_id": 10030
-                },
-                {
-                    "slot": 31,
-                    "stamp_id": 10031
-                },
-                {
-                    "slot": 32,
-                    "stamp_id": 10201
-                }
+                // --- array trimmed ---
             ],
             "unit_story_list": [
                 {
@@ -966,4 +843,4 @@ Notes:
 ------
 
 - This appears to be the player savefile, containing information about owned units and dragons, as well as saved parties and many other things.
-- Having now identified the 'savefile endpoint', we could in theory allow players to download their savefile and upload it to a future private server. However, setting up packet capture and coneshell.dll bypass is very involved, so this seems to be an unlikely possibility.
+- Having now identified the savefile endpoint, we could in theory allow players to download their savefile and upload it to a future private server. However, setting up packet capture and coneshell.dll bypass is very involved, so this seems to be an unlikely possibility.

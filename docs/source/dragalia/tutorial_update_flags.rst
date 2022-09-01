@@ -1,4 +1,4 @@
-/load/index
+/tutorial/update_step
 =======================
 
 - Base address: production-api.dragalialost.com/2.19.0_20220714193707
@@ -22,21 +22,23 @@ Request headers
     DeviceName: OnePlus ONEPLUS A6003
     OS-Version: Android OS 11 / API-30 (RQ3A.210905.001/3c09da6222)
     GraphicsDeviceName: Adreno (TM) 540
-    SID: c2a4ec0c3478cc00c378aefb94cd9d5f697a3a11a81e31068e96926b4f27453e
+    SID: 5f7d426cb80a8e890ab40e65393ee0280f6b693d1f1080451829653f5434d921
     Deploy-Hash: 13bb2827ce9e6a66015ac2808112e3442740e862
     Res-Ver: y2XM6giU6zz56wCm
-    Request-Token: 27883448198760601
-    Request-Time: 1661983025
+    Request-Token: 27883448920180896
+    Request-Time: 1661983065
     Content-Type: application/x-msgpack
     X-Unity-Version: 2019.4.31f1
-    Content-Length: 1
+    Content-Length: 12  
+
 
 Request body
 ----------------
 
-.. code-block:: json
+.. code-block:: javascript
 
     {
+        "flag_id": 1022
     }
 
 Response headers
@@ -46,11 +48,11 @@ Response headers
 
     Content-Type: application/x-msgpack
     Access-Control-Allow-Origin: *
-    Content-Length: 204759
-    Expires: Wed, 31 Aug 2022 21:57:04 GMT
+    Content-Length: 145
+    Expires: Wed, 31 Aug 2022 21:57:57 GMT
     Cache-Control: max-age=0, no-cache, no-store
     Pragma: no-cache
-    Date: Wed, 31 Aug 2022 21:57:04 GMT
+    Date: Wed, 31 Aug 2022 21:57:57 GMT
     Connection: keep-alive
 
 Response
@@ -59,9 +61,25 @@ Response
 .. code-block:: json
 
     {
-        "json": "goes here"
+        "data_headers": {
+            "result_code": 1
+        },
+        "data": {
+            "tutorial_flag_list": [
+                1020,
+                1022
+            ],
+            "update_data_list": {
+                "functional_maintenance_list": [
+                ]
+            },
+            "entity_result": {
+                "converted_entity_list": [
+                ]
+            }
+        }
     }
-
+    
 Notes:
 ------
 
