@@ -58,7 +58,7 @@ Response
 
 .. note:: 
 
-    The following JSON response contained a great deal of repetitive data (originally ~200kb and ~12k lines), so some long arrays have been trimmed. You can view the raw unabridged file here: <https://raw.githubusercontent.com/SapiensAnatis/dragalia-api-docs/blob/main/docs/source/dragalia/savefile.json>
+    The following JSON response contained a great deal of repetitive data (originally ~200kb and ~12k lines), so some long arrays have been trimmed. You can view the raw unabridged file `on GitHub. <https://raw.githubusercontent.com/SapiensAnatis/dragalia-api-docs/main/data_samples/savefile.json>`__
 
 
 .. code-block:: javascript

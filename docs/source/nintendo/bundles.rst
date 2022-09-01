@@ -39,7 +39,9 @@ Response headers
 Response
 ----------------
 
-.. note:: The following response contained repetitively long data which was trimmed. You can view the raw unabridged file here: <https://raw.githubusercontent.com/SapiensAnatis/dragalia-api-docs/blob/main/docs/source/nintendo/bundles.json>
+.. note:: 
+    
+    The following response contained repetitively long data which was trimmed. You can view the raw unabridged file `on GitHub. <https://raw.githubusercontent.com/SapiensAnatis/dragalia-api-docs/main/data_samples/bundles.json>`__
 
 .. code-block:: javascript
 
