@@ -839,7 +839,7 @@ Response
     }
 
 
-Notes:
+Notes
 ------
 
 - This appears to be the player savefile, containing information about owned units and dragons, as well as saved parties and many other things.

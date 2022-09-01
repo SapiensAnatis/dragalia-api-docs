@@ -37,7 +37,6 @@ Request body
 .. code-block:: json
 
     {
-        "json": "goes here"
     }
 
 Response headers
@@ -164,7 +163,7 @@ Response
         }
     }
 
-Notes:
+Notes
 ------
 
 - Write down any remarks or comments here

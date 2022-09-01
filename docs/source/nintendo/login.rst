@@ -99,7 +99,7 @@ Response
         }
     }
 
-Notes:
+Notes
 -------
 
 - The response is after selecting "link later", which may explain the empty/null fields -- there is no Nintendo account associated, so it seems dummy data is used.

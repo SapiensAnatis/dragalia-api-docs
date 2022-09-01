@@ -64,5 +64,5 @@ Response
         }
     }
 
-Notes:
+Notes
 ------

@@ -45,7 +45,7 @@ Response
         "userId": "b5e9d54b1766ef2f"
     }
 
-Notes:
+Notes
 ------
 
 - The endpoint itself is dynamic based on the user ID, fetched from :doc:`/nintendo/login`

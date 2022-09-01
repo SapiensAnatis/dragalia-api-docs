@@ -75,5 +75,5 @@ Response
         }
     }
 
-Notes:
+Notes
 -------

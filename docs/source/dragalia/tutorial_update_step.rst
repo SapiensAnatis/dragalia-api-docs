@@ -30,6 +30,7 @@ Request headers
     Content-Type: application/x-msgpack
     X-Unity-Version: 2019.4.31f1
     Content-Length: 42
+    
 
 Request body
 ----------------
@@ -112,5 +113,5 @@ Response
         }
     }
     
-Notes:
+Notes
 ------
