@@ -48,4 +48,4 @@ Response
 Notes
 ------
 
-- The endpoint itself is dynamic based on the user ID, fetched from :doc:`/nintendo/login`
+- The endpoint itself is dynamic based on the user ID, fetched from :doc:`core_v1_gateway_sdk_login`

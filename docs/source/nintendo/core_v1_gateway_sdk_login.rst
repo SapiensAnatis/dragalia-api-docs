@@ -72,7 +72,7 @@ Response
         "createdDeviceAccount": null,
         "error": null,
         "expiresIn": 900,
-        "idToken": "eyJraWQiOiI0NDllOTYxYy1hNmQxLTQwMWMtYWJlYi1lMGVkZmExNTE5ZGMiLCJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vNDhjYzgxY2RiOGRlMzBlMDYxOTI4ZjU2ZTliZDRiNGQuYmFhcy5uaW50ZW5kby5jb20vY29yZS92MS9jZXJ0aWZpY2F0ZXMifQ.eyJhdWQiOiJjNmU2ZTA0YWFhOGM2MzVhIiwic3ViIjoiYjVlOWQ1NGIxNzY2ZWYyZiIsImlzcyI6Imh0dHBzOi8vNDhjYzgxY2RiOGRlMzBlMDYxOTI4ZjU2ZTliZDRiNGQuYmFhcy5uaW50ZW5kby5jb20iLCJ0eXAiOiJpZF90b2tlbiIsImV4cCI6MTY2MTk3NzQ4OCwiaWF0IjoxNjYxOTczODg4LCJiczpkaWQiOiI3OTFiMDhhNDNlMTViMTAyIiwianRpIjoiNDEwZDU2ZjUtZGQwOS00ODg3LWI1ZWUtMDJlMWJiYjM3YWQ3IiwiYnM6dXNlcl9jcmVhdGVkX2F0IjoxNjYxODk3NzA1fQ.hvTLG5qOeB83KsGqffG-E-dSxKEoABNzYl067erjh57epE-wz9VATWnEx_DNiHW1wOdKR49pzfjFIdnAAziZKuLCepBiaSse4JpGElznray0R9XUXWI6ZuJQWqk51Akr9LHNaOp-l7aSn4hbr87IOG3OziaBoKyraQSwpbQqxoe4O03uYfGsqSR80C5dlb5vXAd-WMfJMqgra7d4nlKXMLy27Xu6Z66yOvExmBzkISYW8elHagy-Mf5iL3MDi01IN6NkgOGHjmnbEKUA7Az-gyipBO7yIxuA5JsiT5hdt8eomMnjOWhxJSU2R1HryUhkGl1qnN4gpE6CKU5Q6MhkPw",
+        "idToken": "<id_token>",
         "market": null,
         "sessionId": null,
         "user": {
