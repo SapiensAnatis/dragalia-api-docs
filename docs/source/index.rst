@@ -23,9 +23,11 @@ Some information has been redacted from requests and responses as it is potentia
    * - <device_id>
      - Unique device identifier, appears in the headers of most requests
    * - <device_account>
-     - Nintendo account ID, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
+     - Device account ID, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
    * - <device_analytics_id>
      - Unique device ID used for analytics tracking, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
+   * - <user_id>
+     - Nintendo account ID, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
 
 Contents
 ------------------------
