@@ -10,7 +10,7 @@ Request headers
 
 .. code-block:: text
 
-	Host: production-api.dragalialost.com<device_id>
+	Host: production-api.dragalialost.com
 	User-Agent: UnityPlayer/2019.4.31f1 (UnityWebRequest/1.0, libcurl/7.75.0-DEV)
 	Accept: */*
 	Accept-Encoding: deflate, gzip
