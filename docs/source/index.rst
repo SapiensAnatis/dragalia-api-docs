@@ -28,6 +28,8 @@ Some information has been redacted from requests and responses as it is potentia
      - Unique device ID used for analytics tracking, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
    * - <user_id>
      - Nintendo account ID, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
+   * - <city>
+     - The user's precise location, retrieved from :doc:`/nintendo/bigdata_v1_analytics_events_config`
 
 Contents
 ------------------------
