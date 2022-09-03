@@ -5,7 +5,7 @@ This repository is meant to provide info about the API used by Dragalia Lost, i.
 
 .. note::
 
-   This project is under active development. It is not endorsed by Nintendo.
+   This project is under active development. It is not endorsed by Nintendo or Cygames.
 
 
 Redactions
