@@ -27,7 +27,7 @@ Request body
 	{
 	    "timeZone": "Europe/London",
 	    "timeZoneOffset": 3600000,
-	    "deviceAnalyticsId": "a2J1YmFhYWFERG1NamZtckpNTmVqSHZ6UGJWUE9FUwA=",
+	    "deviceAnalyticsId": "<device_analytics_id>",
 	    "appVersion": "2.19.0",
 	    "sdkVersion": "Unity-2.33.0-0a4be7c8",
 	    "manufacturer": "OnePlus",
@@ -39,7 +39,7 @@ Request body
 	    "carrier": "giffgaff",
 	    "assertion": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20ubmludGVuZG8uemFnYTowYzNkNzg5ZjVlZDIzZjJiMzRjNzk2NjBhMzcxOTBkMWM4NzNhM2YyIiwiaWF0IjoxNjYxOTgyNzg1LCJhdWQiOiJodHRwczpcL1wvNDhjYzgxY2RiOGRlMzBlMDYxOTI4ZjU2ZTliZDRiNGQuYmFhcy5uaW50ZW5kby5jb20ifQ==.NSFTB_fOmQaOMAmRZOsF-2dv1wsJF7nz8LFbT_0cf58=",
 	    "deviceAccount": {
-	        "id": "791b08a43e15b102",
+	        "id": "<device_account>2",
 	        "password": "kxtb6zyefdnBq1objgBq6046d90muquo1jpe3pgq"
 	    }
 	}
@@ -73,7 +73,7 @@ Response
 	        "gender": "unknown",
 	        "deviceAccounts": [
 	            {
-	                "id": "791b08a43e15b102"
+	                "id": "<device_account>2"
 	            }
 	        ],
 	        "links": {},

@@ -33,7 +33,7 @@ Request body
 	        "eventId": "SESSION",
 	        "userId": "b5e9d54b1766ef2f",
 	        "market": "GOOGLE",
-	        "deviceAccount": "791b08a43e15b102",
+	        "deviceAccount": "<device_account>2",
 	        "payload": {
 	            "action": "resume",
 	            "duration": 82021
@@ -41,8 +41,8 @@ Request body
 	        "cacheInfo": {
 	            "timeZone": "Europe/London",
 	            "timeZoneOffset": 3600000,
-	            "sessionId": "791b08a43e15b102-1661982786598",
-	            "deviceAnalyticsId": "a2J1YmFhYWFERG1NamZtckpNTmVqSHZ6UGJWUE9FUwA=",
+	            "sessionId": "<device_account>2-1661982786598",
+	            "deviceAnalyticsId": "<device_analytics_id>",
 	            "appVersion": "2.19.0",
 	            "sdkVersion": "Unity-2.33.0-0a4be7c8",
 	            "manufacturer": "OnePlus",

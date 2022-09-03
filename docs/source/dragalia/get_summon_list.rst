@@ -18,7 +18,7 @@ Request headers
     Device: 2
     Platform: 2
     Carrier: OnePlus
-    DeviceId: 94e58eeb39e0f05c528aa0582d4032f8
+    DeviceId: <device_id>
     DeviceName: OnePlus ONEPLUS A6003
     OS-Version: Android OS 11 / API-30 (RQ3A.210905.001/3c09da6222)
     GraphicsDeviceName: Adreno (TM) 540
