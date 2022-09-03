@@ -30,6 +30,13 @@ Some information has been redacted from requests and responses as it is potentia
 Contents
 ------------------------
 
+.. toctree:: 
+  :maxdepth: 1
+  :glob:
+  :caption: Resources
+
+  info/*
+
 .. toctree::
    :maxdepth: 1
    :glob:

@@ -207,3 +207,4 @@ Response
 
 Notes
 ------
+Called when promoting a character with eldwater

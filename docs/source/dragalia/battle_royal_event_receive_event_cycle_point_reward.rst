@@ -63,19 +63,93 @@ Response
 .. code-block:: json
 
 	{
-	    "data_headers": {
-	        "result_code": 1
-	    },
-	    "data": {
-	        "event_cycle_reward_list": [],
-	        "event_cycle_reward_entity_list": [],
-	        "update_data_list": {
-	            "functional_maintenance_list": []
-	        },
-	        "entity_result": {
-	            "converted_entity_list": []
-	        }
-	    }
+		"data_headers": {
+			"result_code": 1
+		},
+		"data": {
+			"event_cycle_reward_list": [
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22001
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22002
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22003
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22004
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22005
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22006
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22007
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22008
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22009
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22010
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22011
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22012
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22013
+				},
+				{
+					"event_id": 22301,
+					"event_cycle_id": 22301022,
+					"event_cycle_reward_id": 22014
+				}
+			],
+			"event_cycle_reward_entity_list": [
+			],
+			"update_data_list": {
+				"functional_maintenance_list": [
+				]
+			},
+			"entity_result": {
+				"converted_entity_list": [
+				]
+			}
+		}
 	}
 
 Notes
