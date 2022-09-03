@@ -5,10 +5,6 @@
 - Method: POST
 - Status code: 200
 
-Relates to
-----------
-Mercurial Gauntlet
-
 Request headers
 ----------------
 

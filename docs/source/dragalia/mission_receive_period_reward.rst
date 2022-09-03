@@ -5,9 +5,6 @@
 - Method: POST
 - Status code: 200
 
-Relates to
------------
-Limited endeavours
 
 Request headers
 ----------------

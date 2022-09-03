@@ -43,3 +43,5 @@ Most of the terms the game uses internally are the same as the user-facing terms
      - Feedback form
    * - :code:`dungeon`
      - Any level, whether that's story mode or a standalone boss battle
+   * - :code:`receive_period_reward`
+     - Claiming limited endeavours

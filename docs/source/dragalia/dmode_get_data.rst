@@ -5,9 +5,6 @@
 - Method: POST
 - Status code: 200
 
-Relates to
------------
-Kaleidoscape
 
 Request headers
 ----------------
