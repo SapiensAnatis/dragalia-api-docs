@@ -20,16 +20,15 @@ Some information has been redacted from requests and responses as it is potentia
      - Description
    * - <id_token> 
      - Access token associated with the user account, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
+   * - <device_id>
+     - Unique device identifier
+   * - <device_account>
+     - Nintendo account ID
+   * - <device_analytics_id>
+     - Unique device ID used for analytics tracking
 
 Contents
 ------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :caption: Dragalia Lost endpoints
-   
-   dragalia/*
 
 .. toctree::
    :maxdepth: 1
@@ -38,6 +37,12 @@ Contents
 
    nintendo/*
 
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :caption: Dragalia Lost endpoints
+   
+   dragalia/*
 
 .. toctree::
    :maxdepth: 1
