@@ -10,7 +10,7 @@ This repository is meant to provide info about the API used by Dragalia Lost, i.
 
 Redactions
 ------------------------
-Some information has been redacted from requests and responses as it is potentially sensitive. Where this has been done, it will be replaced by an <identifier> in angle brackets. A list of redactions and the corresponding identifiers can be found below.
+Some information has been redacted from requests and responses as it is potentially sensitive. Where this has been done, it will be replaced by an <identifier> in angle brackets. Some of the more common redactions and what they stand for can be found below.
 
 .. list-table::
    :widths: 25 50

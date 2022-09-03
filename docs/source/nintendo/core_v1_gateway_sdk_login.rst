@@ -37,10 +37,10 @@ Request body
 	    "locale": "en-US",
 	    "networkType": "wifi",
 	    "carrier": "giffgaff",
-	    "assertion": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20ubmludGVuZG8uemFnYTowYzNkNzg5ZjVlZDIzZjJiMzRjNzk2NjBhMzcxOTBkMWM4NzNhM2YyIiwiaWF0IjoxNjYxOTgyNzg1LCJhdWQiOiJodHRwczpcL1wvNDhjYzgxY2RiOGRlMzBlMDYxOTI4ZjU2ZTliZDRiNGQuYmFhcy5uaW50ZW5kby5jb20ifQ==.NSFTB_fOmQaOMAmRZOsF-2dv1wsJF7nz8LFbT_0cf58=",
+	    "assertion": "<assertion>",
 	    "deviceAccount": {
-	        "id": "<device_account>2",
-	        "password": "kxtb6zyefdnBq1objgBq6046d90muquo1jpe3pgq"
+	        "id": "<device_account>",
+	        "password": "<password>"
 	    }
 	}
 
@@ -56,7 +56,6 @@ Response headers
 	Content-Length: 2357
 	Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 
-
 Response
 ----------------
 
@@ -64,7 +63,7 @@ Response
 
 	{
 	    "idToken": "<id_token>",
-	    "accessToken": "<id_token>",
+	    "accessToken": "<access_token>",
 	    "user": {
 	        "id": "<user_id>",
 	        "nickname": "",
@@ -73,7 +72,7 @@ Response
 	        "gender": "unknown",
 	        "deviceAccounts": [
 	            {
-	                "id": "<device_account>2"
+	                "id": "<device_account>"
 	            }
 	        ],
 	        "links": {},
