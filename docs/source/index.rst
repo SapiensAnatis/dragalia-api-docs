@@ -21,11 +21,11 @@ Some information has been redacted from requests and responses as it is potentia
    * - <id_token> 
      - Access token associated with the user account, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
    * - <device_id>
-     - Unique device identifier
+     - Unique device identifier, appears in the headers of most requests
    * - <device_account>
-     - Nintendo account ID
+     - Nintendo account ID, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
    * - <device_analytics_id>
-     - Unique device ID used for analytics tracking
+     - Unique device ID used for analytics tracking, retrieved from :doc:`nintendo/core_v1_gateway_sdk_login`
 
 Contents
 ------------------------
