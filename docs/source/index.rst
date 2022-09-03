@@ -36,23 +36,26 @@ Contents
   :caption: Resources
 
   info/*
+  template.rst
 
 .. toctree::
-   :maxdepth: 1
-   :glob:
-   :caption: Nintendo endpoints
+  :maxdepth: 1
+  :glob:
+  :caption: Nintendo endpoints
 
-   nintendo/*
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :caption: Dragalia Lost endpoints
-   
-   dragalia/*
+  nintendo/*
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Contributing
+  :maxdepth: 1
+  :glob:
+  :caption: Dragalia Lost endpoints
+  
+  dragalia/*
 
-   template.rst
+.. toctree:: 
+  :maxdepth: 1
+  :glob:
+  :caption: Web view endpoints
+
+  views/*
+

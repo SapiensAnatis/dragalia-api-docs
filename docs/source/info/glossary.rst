@@ -39,6 +39,8 @@ Most of the terms the game uses internally are the same as the user-facing terms
      - Event compendium
    * - :code:`drill_mission`
      - Notte's royal regimen
+   * - :code:`album`
+     - Encyclopaedia
    * - :code:`suggestion`
      - Feedback form
    * - :code:`dungeon`
