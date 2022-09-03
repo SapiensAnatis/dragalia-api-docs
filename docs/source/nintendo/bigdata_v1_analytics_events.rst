@@ -31,7 +31,7 @@ Request body
 	        "eventTimestamp": 1661982880717,
 	        "eventCategory": "NPFCOMMON",
 	        "eventId": "SESSION",
-	        "userId": "b5e9d54b1766ef2f",
+	        "userId": "<user_id>",
 	        "market": "GOOGLE",
 	        "deviceAccount": "<device_account>2",
 	        "payload": {

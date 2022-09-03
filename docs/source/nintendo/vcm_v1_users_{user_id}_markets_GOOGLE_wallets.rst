@@ -1,4 +1,4 @@
-/vcm/v1/users/b5e9d54b1766ef2f/markets/GOOGLE/wallets
+/vcm/v1/users/<user_id>/markets/GOOGLE/wallets
 =====================================================
 
 - Base address: 48cc81cdb8de30e061928f56e9bd4b4d.baas.nintendo.com

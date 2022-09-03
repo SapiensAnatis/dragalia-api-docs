@@ -66,7 +66,7 @@ Response
 	    "idToken": "<id_token>",
 	    "accessToken": "<id_token>",
 	    "user": {
-	        "id": "b5e9d54b1766ef2f",
+	        "id": "<user_id>",
 	        "nickname": "",
 	        "country": "",
 	        "birthday": "0000-00-00",
