@@ -45,7 +45,7 @@ Response
 
 	[
 	    {
-	        "userId": "b5e9d54b1766ef2f",
+	        "userId": "<user_id>",
 	        "virtualCurrencyName": "diamond",
 	        "market": "GOOGLE",
 	        "remittedBalances": [],
