@@ -1,7 +1,7 @@
 Glossary of terms
 ====================
 
-Most of the terms the game uses internally are the same as the user-facing terms, but a handful are different. These differences are documented here.
+Most of the terms the game uses internally are the same as the user-facing terms, but there are a handful of differences. Where it is not immediately obvious what the term means, it should be documented here.
 
 .. list-table::
    :widths: 25 50
@@ -19,6 +19,8 @@ Most of the terms the game uses internally are the same as the user-facing terms
      - Unbinding equipment/dragons or finishing a mana circle
    * - :code:`buildup`
      - Upgrading
+   * - :code:`buildup_platinum`
+     - Using omnicite
    * - :code:`wall`
      - Mercurial Gauntlet
    * - :code:`fort`
