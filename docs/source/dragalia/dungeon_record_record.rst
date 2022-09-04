@@ -274,8 +274,8 @@ Request body
 	        "play_continue_count": 0
 	    },
 	    "dungeon_key": "af7704da374abb78c65e1aa00217f0de45f77c18",
-	    "repeat_state": 0,
-	    "repeat_key": null
+	    "repeat_state": 1,
+    	"repeat_key": "2d1b09988590da347c3494ebae808d0c0d3280bd"
 	}
 
 Response headers

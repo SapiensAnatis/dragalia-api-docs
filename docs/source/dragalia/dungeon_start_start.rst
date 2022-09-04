@@ -46,7 +46,13 @@ Request body
 	    "bet_count": 0,
 	    "repeat_state": 0,
 	    "support_viewer_id": 0,
-	    "repeat_setting": null
+	    "repeat_setting": {
+			"repeat_type": 1,
+			"repeat_count": 99,
+			"use_item_list": [
+				100602
+			]
+    	}
 	}
 
 Response headers

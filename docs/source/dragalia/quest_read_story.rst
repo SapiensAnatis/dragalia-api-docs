@@ -112,7 +112,13 @@ Response
 	            "functional_maintenance_list": []
 	        },
 	        "entity_result": {
-	            "converted_entity_list": []
+	            "converted_entity_list": [],
+				"new_get_entity_list": [
+					{
+						"entity_type": 1,
+						"entity_id": 10540201
+					}
+				]
 	        }
 	    }
 	}
