@@ -83,8 +83,6 @@ These are endpoints which may be possible to trigger, but which have yet to be d
      -
    * - MatchingGetRoomListByGuild
      -
-   * - MatchingGetRoomListByLocation
-     -
    * - MissionReceiveAlbumReward
      - See: :doc:`/dragalia/album_index` for Encyclopaedia. Not triggered when getting unit bonuses
    * - MissionReceiveBeginnerReward
