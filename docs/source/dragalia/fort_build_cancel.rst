@@ -62,21 +62,21 @@ Response
 .. code-block:: json
 
 	{
-		'data_headers': {
-			'result_code': 1
+		"data_headers": {
+			"result_code": 1
 		},
-		'data': {
-			'result': 1,
-			'build_id': 1360642,
-			'fort_detail': {
-				'max_carpenter_count': 5,
-				'carpenter_num': 2,
-				'working_carpenter_num': 0
+		"data": {
+			"result": 1,
+			"build_id": 1360642,
+			"fort_detail": {
+				"max_carpenter_count": 5,
+				"carpenter_num": 2,
+				"working_carpenter_num": 0
 			},
-			'update_data_list': {
-				'build_list': [
+			"update_data_list": {
+				"build_list": [
 				],
-				'functional_maintenance_list': [
+				"functional_maintenance_list": [
 				]
 			}
 		}

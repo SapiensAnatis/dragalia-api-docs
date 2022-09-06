@@ -62,17 +62,174 @@ Response
 .. code-block:: json
 
 	{
-	    "data_headers": {
-	        "result_code": 1
-	    },
-	    "data": {
-	        "quest_clear_party_setting_list": [],
-	        "lost_unit_list": [],
-	        "update_data_list": {
-	            "functional_maintenance_list": []
-	        }
-	    }
+		"data_headers": {
+			"result_code": 1
+		},
+		"data": {
+			"quest_clear_party_setting_list": [
+				{
+					"unit_no": 1,
+					"chara_id": 10950403,
+					"equip_dragon_key_id": 9076602,
+					"equip_weapon_body_id": 30960401,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050106,
+					"equip_crest_slot_type_1_crest_id_2": 40050105,
+					"equip_crest_slot_type_1_crest_id_3": 40050130,
+					"equip_crest_slot_type_2_crest_id_1": 40040090,
+					"equip_crest_slot_type_2_crest_id_2": 40040091,
+					"equip_crest_slot_type_3_crest_id_1": 40090012,
+					"equip_crest_slot_type_3_crest_id_2": 40090004,
+					"equip_talisman_key_id": 0,
+					"edit_skill_1_chara_id": 0,
+					"edit_skill_2_chara_id": 10650505
+				},
+				{
+					"unit_no": 2,
+					"chara_id": 10650403,
+					"equip_dragon_key_id": 17598662,
+					"equip_weapon_body_id": 30660401,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050147,
+					"equip_crest_slot_type_1_crest_id_2": 40050130,
+					"equip_crest_slot_type_1_crest_id_3": 40050076,
+					"equip_crest_slot_type_2_crest_id_1": 40040058,
+					"equip_crest_slot_type_2_crest_id_2": 40040003,
+					"equip_crest_slot_type_3_crest_id_1": 40090007,
+					"equip_crest_slot_type_3_crest_id_2": 40090002,
+					"equip_talisman_key_id": 0,
+					"edit_skill_1_chara_id": 10840501,
+					"edit_skill_2_chara_id": 10440301
+				},
+				{
+					"unit_no": 3,
+					"chara_id": 10250402,
+					"equip_dragon_key_id": 18111961,
+					"equip_weapon_body_id": 30260401,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050130,
+					"equip_crest_slot_type_1_crest_id_2": 40050122,
+					"equip_crest_slot_type_1_crest_id_3": 40050067,
+					"equip_crest_slot_type_2_crest_id_1": 40040080,
+					"equip_crest_slot_type_2_crest_id_2": 40040100,
+					"equip_crest_slot_type_3_crest_id_1": 40090001,
+					"equip_crest_slot_type_3_crest_id_2": 40090007,
+					"equip_talisman_key_id": 0,
+					"edit_skill_1_chara_id": 10840501,
+					"edit_skill_2_chara_id": 10440301
+				},
+				{
+					"unit_no": 4,
+					"chara_id": 10850401,
+					"equip_dragon_key_id": 7442475,
+					"equip_weapon_body_id": 30860401,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050008,
+					"equip_crest_slot_type_1_crest_id_2": 40050147,
+					"equip_crest_slot_type_1_crest_id_3": 40050020,
+					"equip_crest_slot_type_2_crest_id_1": 40040062,
+					"equip_crest_slot_type_2_crest_id_2": 40030004,
+					"equip_crest_slot_type_3_crest_id_1": 40090018,
+					"equip_crest_slot_type_3_crest_id_2": 40090024,
+					"equip_talisman_key_id": 2307,
+					"edit_skill_1_chara_id": 10840501,
+					"edit_skill_2_chara_id": 10440301
+				},
+				{
+					"unit_no": 5,
+					"chara_id": 10840202,
+					"equip_dragon_key_id": 7868063,
+					"equip_weapon_body_id": 30860201,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050008,
+					"equip_crest_slot_type_1_crest_id_2": 40050070,
+					"equip_crest_slot_type_1_crest_id_3": 40050109,
+					"equip_crest_slot_type_2_crest_id_1": 40040062,
+					"equip_crest_slot_type_2_crest_id_2": 40030004,
+					"equip_crest_slot_type_3_crest_id_1": 40090018,
+					"equip_crest_slot_type_3_crest_id_2": 40090022,
+					"equip_talisman_key_id": 0,
+					"edit_skill_1_chara_id": 10850502,
+					"edit_skill_2_chara_id": 10150201
+				},
+				{
+					"unit_no": 6,
+					"chara_id": 10250203,
+					"equip_dragon_key_id": 14557772,
+					"equip_weapon_body_id": 30260201,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050067,
+					"equip_crest_slot_type_1_crest_id_2": 40050100,
+					"equip_crest_slot_type_1_crest_id_3": 40050090,
+					"equip_crest_slot_type_2_crest_id_1": 40040100,
+					"equip_crest_slot_type_2_crest_id_2": 40040048,
+					"equip_crest_slot_type_3_crest_id_1": 40090002,
+					"equip_crest_slot_type_3_crest_id_2": 40090001,
+					"equip_talisman_key_id": 0,
+					"edit_skill_1_chara_id": 10550101,
+					"edit_skill_2_chara_id": 10850502
+				},
+				{
+					"unit_no": 7,
+					"chara_id": 10150201,
+					"equip_dragon_key_id": 4905892,
+					"equip_weapon_body_id": 30160201,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050145,
+					"equip_crest_slot_type_1_crest_id_2": 40050058,
+					"equip_crest_slot_type_1_crest_id_3": 40050067,
+					"equip_crest_slot_type_2_crest_id_1": 40040048,
+					"equip_crest_slot_type_2_crest_id_2": 40040003,
+					"equip_crest_slot_type_3_crest_id_1": 40090001,
+					"equip_crest_slot_type_3_crest_id_2": 40090002,
+					"equip_talisman_key_id": 766,
+					"edit_skill_1_chara_id": 10840501,
+					"edit_skill_2_chara_id": 10440301
+				},
+				{
+					"unit_no": 8,
+					"chara_id": 10450202,
+					"equip_dragon_key_id": 13714264,
+					"equip_weapon_body_id": 30460201,
+					"equip_weapon_skin_id": 0,
+					"equip_crest_slot_type_1_crest_id_1": 40050100,
+					"equip_crest_slot_type_1_crest_id_2": 40050066,
+					"equip_crest_slot_type_1_crest_id_3": 40050020,
+					"equip_crest_slot_type_2_crest_id_1": 40030004,
+					"equip_crest_slot_type_2_crest_id_2": 40040072,
+					"equip_crest_slot_type_3_crest_id_1": 40090007,
+					"equip_crest_slot_type_3_crest_id_2": 40090029,
+					"equip_talisman_key_id": 0,
+					"edit_skill_1_chara_id": 10550101,
+					"edit_skill_2_chara_id": 10150201
+				}
+			],
+			"lost_unit_list": [
+				{
+					"unit_no": 1,
+					"entity_type": 41,
+					"entity_id": 50950401
+				},
+				{
+					"unit_no": 2,
+					"entity_type": 41,
+					"entity_id": 50150503
+				},
+				{
+					"unit_no": 3,
+					"entity_type": 41,
+					"entity_id": 50950401
+				}
+			],
+			"update_data_list": {
+				"functional_maintenance_list": [
+				]
+			}
+		}
 	}
 
 Notes
 ------
+
+- The above response is for a master Sinister Dominion quest, hence the 8 units.
+- In this case, lost_unit_list likely referred to some Kaleidoscape prints I no longer had, but it could also extend to dragons.
