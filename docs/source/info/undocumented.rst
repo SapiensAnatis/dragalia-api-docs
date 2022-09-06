@@ -14,13 +14,6 @@ These are endpoints which may be possible to trigger, but which have yet to be d
 
    * - Endpoint
      - Notes
-
-   * - AbilityCrestGetAbilityCrestSetList
-     - Wyrmprints e.g. :doc:`/dragalia/ability_crest_buildup_piece`
-   * - AbilityCrestSetAbilityCrestSet
-     - Wyrmprints e.g. :doc:`/dragalia/ability_crest_buildup_piece`
-   * - AbilityCrestUpdateAbilityCrestSetName
-     - Wyrmprints e.g. :doc:`/dragalia/ability_crest_buildup_piece`
    * - BattleRoyalEventReleaseCharaSkin
      - Not triggered when buying fighter skin, changing fighter skin, weapon skin in ABR
    * - BattleRoyalRecordRoyalRecordMulti
@@ -37,8 +30,6 @@ These are endpoints which may be possible to trigger, but which have yet to be d
      -
    * - DmodeDungeonSystemHalt
      - See :doc:`/dragalia/dmode_dungeon_user_halt`. Closing app?
-   * - DmodeReadStory
-     - Unlocking a new Kaleidoscape story
    * - DungeonRecordRecordMulti
      - Not triggered when finishing a co-op quest
    * - DungeonRetry

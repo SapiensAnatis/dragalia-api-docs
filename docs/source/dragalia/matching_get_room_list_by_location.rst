@@ -40,8 +40,8 @@ Request body
 	{
 		"region": "usw",
 		"quest_type": 0,
-		"latitude": <latitude>,
-		"longitude": <longitude>,
+		"latitude": "<latitude>",
+		"longitude": "<longitude>",
 		"compatible_id": 36
 	}
 
