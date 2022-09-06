@@ -398,7 +398,14 @@ Response
 	                        "take_exp": 240
 	                    }
 	                ],
-	                "chara_friendship_list": []
+	                "chara_friendship_list": [
+						{
+							"chara_id": 10240503,
+							"add_point": 6,
+							"total_point": 6,
+							"is_temporary": 1
+						}
+					]
 	            },
 	            "start_time": 1661984074,
 	            "end_time": 0,

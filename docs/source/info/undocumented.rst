@@ -6,47 +6,39 @@ A complete list of endpoints can be obtained by peering into the game files and 
 List
 ------
 
-These are endpoints which may be possible to trigger, but which have yet to be documented because it is not known or not easy to trigger them.
+These are endpoints which may be possible to trigger, but which have yet to be documented. If you have any ideas about how to trigger them, please get in touch!
 
 .. list-table::
-   :widths: 25 50
+   :widths: 25 75
    :header-rows: 1
 
    * - Endpoint
      - Notes
 
    * - AbilityCrestGetAbilityCrestSetList
-     -
+     - Wyrmprints e.g. :doc:`/dragalia/ability_crest_buildup_piece`
    * - AbilityCrestSetAbilityCrestSet
-     -
+     - Wyrmprints e.g. :doc:`/dragalia/ability_crest_buildup_piece`
    * - AbilityCrestUpdateAbilityCrestSetName
-     -
+     - Wyrmprints e.g. :doc:`/dragalia/ability_crest_buildup_piece`
    * - BattleRoyalEventReleaseCharaSkin
-     - Not triggered when buying an ABR fighter skin or changing fighter skin/weapon skin in ABR
+     - Not triggered when buying fighter skin, changing fighter skin, weapon skin in ABR
    * - BattleRoyalRecordRoyalRecordMulti
      - Not triggered when finishing a battle royale
    * - BattleRoyalStartMulti
      - Not triggered when starting a battle royale
    * - BuildEventReceiveDailyBonus
      - Possible related to Nightmare 
-   * - CastleStoryRead
-     -
    * - CharaGetList
      -
-   * - Clb01EventEntry
-     - Opening the FEH event on an account that hasn't played it before
    * - CollectEventEntry
      -
    * - CollectEventGetEventData
      -
    * - DmodeDungeonSystemHalt
-     - Related to :doc:`/dragalia/dmode_dungeon_user_halt`, which is called when suspending a Kaleidoscape run manually. Probably called when the app closes/phone goes to sleep to save progress in these instances
+     - See :doc:`/dragalia/dmode_dungeon_user_halt`. Closing app?
    * - DmodeReadStory
      - Unlocking a new Kaleidoscape story
-   * - DreamAdventureClear
-     -
-   * - DreamAdventurePlay
-     -
    * - DungeonRecordRecordMulti
      - Not triggered when finishing a co-op quest
    * - DungeonRetry
@@ -54,7 +46,7 @@ These are endpoints which may be possible to trigger, but which have yet to be d
    * - DungeonSkipStartMultipleQuestAssignUnit
      -
    * - DungeonStartStartMultiAssignUnit
-     - AssignUnit in other places refers to quests where you are forced to use a specific unit.
+     - AssignUnit usually means quests where you are forced to use a specific unit
    * - EarnEventEntry
      - 
    * - EarnEventGetEventData
@@ -62,19 +54,15 @@ These are endpoints which may be possible to trigger, but which have yet to be d
    * - EarnEventReceiveEventPointReward
      -
    * - EventDamageGetTotalDamageHistory
-     - Possibly related to the Satan event where players were awarded based on damage dealt
+     - Possibly related to the Satan event
    * - EventDamageReceiveDamageReward
-     - Possibly related to the Satan event where players were awarded based on damage dealt
+     - Possibly related to the Satan event
    * - EventStoryRead
-     - Not triggered from compendium stories or current active raid event stories, which use :doc:`/dragalia/quest_read_story` or :doc:`/dragalia/story_read`
+     - See :doc:`/dragalia/quest_read_story` or :doc:`/dragalia/story_read`
    * - ExchangeGetUnitList
-     -
+     - Special vouchers? (dream, 5* unit)
    * - ExchangeSelectUnit
-     -
-   * - FortBuildAtOnce
-     - Possibly from rushing a new build (as opposed to a level-up which triggers :doc:`/dragalia/fort_levelup_at_once`). New player rupie mines?
-   * - FortBuildCancel
-     - Cancelling a level-up
+     - Special vouchers? (dream, 5* unit)
    * - GuildChatPostReport
      - 
    * - GuildInviteInviteReplyAllDeny
@@ -84,11 +72,11 @@ These are endpoints which may be possible to trigger, but which have yet to be d
    * - GuildJoinReplyAllDeny
      - Replying to a request to join your guild
    * - GuildJoinRequestCancel
-     -
+     - Cancelling a request to join another guild
    * - GuildPostReport
-     -
+     - Reporting a message in a guild?
    * - GuildSearchGetGuildDetail
-     -
+     - 
    * - InquiryReply
      - Nintendo customer support reply
    * - LoginPenaltyConfirm
@@ -97,46 +85,20 @@ These are endpoints which may be possible to trigger, but which have yet to be d
      -
    * - MatchingGetRoomListByLocation
      -
-   * - MazeEventEntry
-     -
-   * - MazeEventGetEventData
-     -
-   * - MazeEventReceiveMazePointReward
-     -
    * - MissionReceiveAlbumReward
-     - `album` usually refers to the Encyclopaedia, but not triggered when receiving 
+     - See: :doc:`/dragalia/album_index` for Encyclopaedia. Not triggered when getting unit bonuses
    * - MissionReceiveBeginnerReward
-     - MissionReceive refers to endeavours (:doc:`/dragalia/mission_receive_daily_reward`, :doc:`/dragalia/mission_receive_normal_reward`, etc.)
+     - Some kind of endeavour, e.g. :doc:`/dragalia/mission_receive_daily_reward`
    * - MissionReceiveMainStoryReward
-     - MissionReceive refers to endeavours (:doc:`/dragalia/mission_receive_daily_reward`, :doc:`/dragalia/mission_receive_normal_reward`, etc.)
-   * - MissionReceiveSpecialReward
-     - MissionReceive refers to endeavours (:doc:`/dragalia/mission_receive_daily_reward`, :doc:`/dragalia/mission_receive_normal_reward`, etc.)
+     - Some kind of endeavour, e.g. :doc:`/dragalia/mission_receive_daily_reward`
    * - MissionUnlockMainStoryGroup
      -
-   * - OptionSetOption
-     -
    * - QuestGetQuestClearPartyMulti
-     - For solo, this corresponds to the 'preferred team' button (:doc:`/dragalia/quest_get_quest_clear_party`), and when clearing in co-op :doc:`/dragalia/quest_set_quest_clear_party_multi` is called, but I'm not aware of any way to access historical co-op teams?
+     - For solo, this corresponds to the 'preferred team' button. See :doc:`/dragalia/quest_get_quest_clear_party`
    * - QuestSearchQuestClearPartyCharaMulti
-     -
+     - Relates to seeing previous clears of endgame quests. See :doc:`/dragalia/quest_search_quest_clear_party_chara`
    * - QuestSearchQuestClearPartyMulti
-     -
-   * - ShopChargeCancel
-     -
-   * - ShopGetBonus
-     -
-   * - ShopGetDreamSelectUnitList
-     -
-   * - ShopGetProductList
-     -
-   * - ShopPreChargeCheck
-     -
-   * - ShopSpecialShopPurchase
-     -
-   * - SimpleEventEntry
-     -
-   * - SimpleEventGetEventData
-     -
+     - Relates to seeing previous clears of endgame quests. See :doc:`/dragalia/quest_search_quest_clear_party`
    * - SummonExcludeGetOddsData
      -
    * - SummonExcludeRequest
@@ -164,7 +126,7 @@ These are endpoints which may be possible to trigger, but which have yet to be d
    * - WallReceiveMonthlyReward
      - Getting monthly Mercurial Gauntlet reward
    * - WallStartStartAssignUnit
-     - Not called when starting Mercurial Gauntlet, that's :doc:`/dragalia/wall_start_start`. AssignUnit elsewhere forces you to use a particular unit, but unaware of any similar functionality for MG.
+     - See: :doc:`/dragalia/wall_start_start`. AssignUnit elsewhere forces you to use a particular unit
 
 
 Deprecated
@@ -210,9 +172,17 @@ These endpoints are *probably* deprecated, due to referring to pre-2.0 functiona
      - Pre-2.0, no longer possible to disassemble weapons
    * - CraftResetNew
      - Probably pre-2.0, but unsure what it refers to
+   * - MazeEventEntry
+     - Possibly unused Kaleidoscape endpoint -- now uses :doc:`/dragalia/dmode_entry`
+   * - MazeEventGetEventData
+     - Possibly unused Kaleidoscape endpoint -- now uses :doc:`/dragalia/dmode_get_data`
+   * - MazeEventReceiveMazePointReward
+     - Possibly unused Kaleidoscape endpoint -- now uses :doc:`/dragalia/dmode_dungeon_finish`
 
 Not possible to document
 -------------------------
+
+The following endpoints are unlikely to be documented before end-of-service.
 
 .. list-table::
    :widths: 25 50
@@ -244,3 +214,25 @@ Not possible to document
      - Time attack
    * - TimeAttackRankingReceiveTierReward
      - Time attack
+   * - ShopChargeCancel
+     - 
+   * - ShopGetBonus
+     -
+   * - ShopGetDreamSelectUnitList
+     -
+   * - ShopGetProductList
+     -
+   * - ShopPreChargeCheck
+     -
+   * - ShopSpecialShopPurchase
+     -   
+   * - MissionReceiveSpecialReward
+     - Shop-bought special endeavours
+   * - SimpleEventEntry
+     - Likely corresponds to story-only events e.g. Cleo NY sweep
+   * - SimpleEventGetEventData
+     - Likely corresponds to story-only events e.g. Cleo NY sweep
+   * - DreamAdventureClear
+     - Notte's Slumber Shot?
+   * - DreamAdventurePlay
+     - Notte's Slumber Shot?
