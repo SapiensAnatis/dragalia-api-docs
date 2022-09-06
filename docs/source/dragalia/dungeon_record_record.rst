@@ -416,8 +416,127 @@ Response
 	            "is_fever_time": 0,
 	            "wave_count": 0,
 	            "reborn_count": 0,
-	            "helper_list": [],
-	            "helper_detail_list": [],
+				"helper_list": [
+					{
+						"viewer_id": 54405843119,
+						"name": "Jet",
+						"level": 203,
+						"last_login_date": 1662268546,
+						"emblem_id": 40005804,
+						"max_party_power": 52306,
+						"support_chara": {
+							"chara_id": 10540201,
+							"level": 100,
+							"additional_max_level": 20,
+							"rarity": 5,
+							"element_type": 2,
+							"hp": 902,
+							"attack": 551,
+							"hp_plus_count": 100,
+							"attack_plus_count": 100,
+							"ability_1_level": 3,
+							"ability_2_level": 3,
+							"ability_3_level": 2,
+							"ex_ability_level": 5,
+							"ex_ability_2_level": 5,
+							"skill_1_level": 4,
+							"skill_2_level": 3,
+							"is_unlock_edit_skill": 1
+						},
+						"support_dragon": {
+							"dragon_key_id": 14751273,
+							"dragon_id": 20050213,
+							"level": 100,
+							"hp": 370,
+							"attack": 125,
+							"skill_1_level": 2,
+							"ability_1_level": 5,
+							"ability_2_level": 5,
+							"hp_plus_count": 50,
+							"attack_plus_count": 50,
+							"limit_break_count": 4
+						},
+						"support_weapon_body": {
+							"weapon_body_id": 30560201,
+							"buildup_count": 80,
+							"limit_break_count": 8,
+							"limit_over_count": 1,
+							"equipable_count": 1,
+							"additional_crest_slot_type_1_count": 1,
+							"additional_crest_slot_type_2_count": 0,
+							"additional_crest_slot_type_3_count": 1
+						},
+						"support_talisman": {
+							"talisman_key_id": 0
+						},
+						"support_crest_slot_type_1_list": [
+							{
+								"ability_crest_id": 40050119,
+								"buildup_count": 50,
+								"limit_break_count": 4,
+								"hp_plus_count": 50,
+								"attack_plus_count": 50,
+								"equipable_count": 1
+							},
+							{
+								"ability_crest_id": 40050034,
+								"buildup_count": 50,
+								"limit_break_count": 4,
+								"hp_plus_count": 50,
+								"attack_plus_count": 50,
+								"equipable_count": 2
+							},
+							{
+								"ability_crest_id": 40050108,
+								"buildup_count": 50,
+								"limit_break_count": 4,
+								"hp_plus_count": 50,
+								"attack_plus_count": 50,
+								"equipable_count": 4
+							}
+						],
+						"support_crest_slot_type_2_list": [
+							{
+								"ability_crest_id": 40040087,
+								"buildup_count": 40,
+								"limit_break_count": 4,
+								"hp_plus_count": 50,
+								"attack_plus_count": 50,
+								"equipable_count": 1
+							},
+							{
+								"ability_crest_id": 40040062,
+								"buildup_count": 40,
+								"limit_break_count": 4,
+								"hp_plus_count": 50,
+								"attack_plus_count": 50,
+								"equipable_count": 2
+							}
+						],
+						"support_crest_slot_type_3_list": [
+							{
+								"ability_crest_id": 0
+							},
+							{
+								"ability_crest_id": 0
+							}
+						],
+						"guild": {
+							"guild_id": 68048506,
+							"guild_emblem_id": 10030,
+							"guild_name": "Waffle Smasher",
+							"is_penalty_guild_name": 0
+						}
+					}
+				],
+				"helper_detail_list": [
+					{
+						"viewer_id": 54405843119,
+						"get_mana_point": 50,
+						"is_friend": 1,
+						"apply_send_status": 0
+					}
+				],
 	            "quest_party_setting_list": [
 	                {
 	                    "unit_no": 1,
