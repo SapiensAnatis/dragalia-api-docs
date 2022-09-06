@@ -65,8 +65,6 @@ These are endpoints which may be possible to trigger, but which have yet to be d
      - Special vouchers? (dream, 5* unit)
    * - GuildChatPostReport
      - 
-   * - GuildInviteInviteReplyAllDeny
-     - Replying to an invitation to join a guild
    * - GuildJoinReply
      - Replying to a request to join your guild
    * - GuildJoinReplyAllDeny
