@@ -60,8 +60,7 @@ Response headers
 Response
 ----------------
 
-::.. note:: This is an error response code, because the button to rush was pressed after the building was complete. As this endpoint only differs from :doc:`/dragalia/fort_levelup_at_once`
-by the fact that the building is newly placed, it should be possible to use the levelup endpoint response to infer the content of a successful response from this endpoint.
+.. note:: This is an error response code, because the button to rush was pressed after the building was complete. As this endpoint only differs from :doc:`/dragalia/fort_levelup_at_once` by the fact that the building is newly placed, it should be possible to use the levelup endpoint response to infer the content of a successful response from this endpoint.
 
 .. code-block:: json
 

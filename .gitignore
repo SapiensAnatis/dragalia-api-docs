@@ -158,3 +158,4 @@ cython_debug/
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 docs/source/nintendo/inquiry_v1_users_*
 docs/source/nintendo/vcm_v1_users_*
+docs/source/nintendo/inquiry_v1_users_fa601c6975c3077a.rst

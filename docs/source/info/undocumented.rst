@@ -108,10 +108,8 @@ These are endpoints which may be possible to trigger, but which have yet to be d
      -
    * - UserWithdrawal
      -
-   * - WalkerSendGiftMultiple
-     -
    * - WallReceiveMonthlyReward
-     - Getting monthly Mercurial Gauntlet reward
+     - Getting monthly Mercurial Gauntlet reward. Need help doing this because I've messed it up the past two months!
    * - WallStartStartAssignUnit
      - See: :doc:`/dragalia/wall_start_start`. AssignUnit elsewhere forces you to use a particular unit
 
@@ -205,14 +203,10 @@ The following endpoints are unlikely to be documented before end-of-service.
      - 
    * - ShopGetBonus
      -
-   * - ShopGetDreamSelectUnitList
-     -
    * - ShopGetProductList
      -
    * - ShopPreChargeCheck
      -
-   * - ShopSpecialShopPurchase
-     -   
    * - MissionReceiveSpecialReward
      - Shop-bought special endeavours
    * - SimpleEventEntry
