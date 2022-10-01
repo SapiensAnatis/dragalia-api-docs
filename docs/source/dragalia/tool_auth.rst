@@ -76,3 +76,21 @@ Response
 
 Notes
 ------
+
+Interestingly, if you return the following response from this endpoint
+
+.. code-block:: json
+
+	{
+		"data_headers": {
+			"result_code": 102
+		},
+		"data": {
+			"result_code": 102
+		}
+	}
+
+typically corresponding to an 'internal server error', a message will pop up on the client stating that the user's account has been banned and can't be used to play Dragalia Lost!
+
+.. image:: ../images/banned.png
+	:width: 300
