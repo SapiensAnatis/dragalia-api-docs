@@ -115,3 +115,14 @@ Response
     
 Notes
 ------
+
+This changes the `tutorial_status` flag in the savefile, which controls the state of the really basic tutorial -- the one that teaches you how to move with Euden going through the woods.
+
+Known values:
+
+- 0, prologue beginning
+- 101, prologue halfway (Zethia and Notte join)
+- 201, shapeshift battle
+- 301, after shapeshifting
+- 401, during reroll summon
+

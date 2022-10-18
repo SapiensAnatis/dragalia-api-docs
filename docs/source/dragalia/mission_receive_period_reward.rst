@@ -2555,3 +2555,20 @@ Response
 
 Notes
 ------
+
+When claiming a wyrmprint that was converted into eldwater, `entity_result` was given as follows:
+
+.. code-block:: json
+	
+	"entity_result": {
+		"converted_entity_list": [
+			{
+				"before_entity_type": 39,
+				"before_entity_id": 40040021,
+				"before_entity_quantity": 1,
+				"after_entity_type": 14,
+				"after_entity_id": 0,
+				"after_entity_quantity": 100
+			}
+		]
+	}

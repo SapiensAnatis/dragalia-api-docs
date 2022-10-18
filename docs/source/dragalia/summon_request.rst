@@ -440,3 +440,53 @@ Response
 
 Notes
 ------
+
+For using a tenfold voucher, of which I had 4 remaining, the request is:
+
+.. code-block:: json
+
+	{
+		"summon_id": 1020210,
+		"exec_type": 2,
+		"exec_count": 0,
+		"payment_type": 8,
+		"payment_target": {
+			"target_hold_quantity": 4,
+			"target_cost": 1
+		}
+	}
+
+For using single vouchers, the request is:
+
+.. code-block:: json
+
+	{
+		"summon_id": 1020210,
+		"exec_type": 1,
+		"exec_count": 10,
+		"payment_type": 8,
+		"payment_target": {
+			"target_hold_quantity": 39,
+			"target_cost": 10
+		}
+	}
+
+For using wyrmite, the request is:
+
+.. code-block:: json
+
+	{
+		"summon_id": 1020210,
+		"exec_type": 2,
+		"exec_count": 0,
+		"payment_type": 3,
+		"payment_target": {
+			"target_hold_quantity": 16140,
+			"target_cost": 1200
+		}
+	}
+
+- presage_effect_list probably refers to the animations of the summoner: 
+  - `1`, `2`, `3`, are "common" effects, like birds and gold circle
+  -  `4` is a 5* indicator (seems to be random whether gold dragons/rainbow circle)
+  -  `5` is an indicator seen when two 5*s were summoned, rainbow gem and rainbow circle
