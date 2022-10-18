@@ -487,6 +487,6 @@ For using wyrmite, the request is:
 	}
 
 - presage_effect_list probably refers to the animations of the summoner: 
-  - `1`, `2`, `3`, are "common" effects, like birds and gold circle
-  -  `4` is a 5* indicator (seems to be random whether gold dragons/rainbow circle)
-  -  `5` is an indicator seen when two 5*s were summoned, rainbow gem and rainbow circle
+    - `1`, `2`, `3`, are "common" effects, like birds and gold circle
+    -  `4` is a 5\* indicator (seems to be random whether gold dragons/rainbow circle)
+    -  `5` is an indicator seen when two 5\*s were summoned, rainbow gem and rainbow circle
