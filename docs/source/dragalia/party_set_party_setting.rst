@@ -239,3 +239,5 @@ Response
 
 Notes
 ------
+
+- :code:`is_entrust` and :code:`is_entrust_element` seem to refer to the 'Optimize' function; manual edits will have these both set to 0, but when pressing 'Optimize', the former will be 1 and the latter will be a number corresponding to the element of the team requested.

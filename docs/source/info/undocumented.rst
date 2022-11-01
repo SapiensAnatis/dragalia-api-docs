@@ -38,12 +38,6 @@ These are endpoints which may be possible to trigger, but which have yet to be d
      -
    * - DungeonStartStartMultiAssignUnit
      - AssignUnit usually means quests where you are forced to use a specific unit
-   * - EarnEventEntry
-     - 
-   * - EarnEventGetEventData
-     -
-   * - EarnEventReceiveEventPointReward
-     -
    * - EventDamageGetTotalDamageHistory
      - Possibly related to the Satan event
    * - EventDamageReceiveDamageReward
