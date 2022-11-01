@@ -72,3 +72,5 @@ Response
 
 Notes
 ------
+
+:.. warning:: The above response is an error code -- I was unable to get a success response while using the proxy to see the traffic. On success, this endpoint will return :code:`"status_code": 1` and (if applicable) information about the login bonuses that the user has received.
