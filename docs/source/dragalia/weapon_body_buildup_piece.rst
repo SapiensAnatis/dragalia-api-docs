@@ -136,17 +136,19 @@ Notes
    * - 1
      - Unbinding
    * - 2
-     - ???
+     - Refinement
    * - 3
      - Wyrmprint slots
    * - 4
      - ???
    * - 5
-     - ???
+     - Weapon bonus
    * - 6
-     - ???
+     - Copies
    * - 7
      - HP & Strength
+   * - 8
+     - Passive ability
 
 **Sample requests:**
 Building up HP & Strength by 2 units:
