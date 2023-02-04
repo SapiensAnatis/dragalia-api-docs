@@ -10,7 +10,27 @@ Request headers
 
 .. code-block:: text
 
-	Host: production-api.dragalialost.com	User-Agent: UnityPlayer/2019.4.31f1 (UnityWebRequest/1.0, libcurl/7.75.0-DEV)	Accept: */*	Accept-Encoding: deflate, gzip	App-Ver: 2.19.0	Device: 2	Platform: 2	Carrier: OnePlus	DeviceId: <device_id>	DeviceName: OnePlus ONEPLUS A6003	OS-Version: Android OS 11 / API-30 (RQ3A.210905.001/3c09da6222)	GraphicsDeviceName: Adreno (TM) 540	SID: 1a5a3cb1aa568946e14a539ae29b79f74c58858365dc2bb0dbe8d8e5150215ed	Deploy-Hash: 13bb2827ce9e6a66015ac2808112e3442740e862	Res-Ver: y2XM6giU6zz56wCm	Request-Token: 27886509621250185	Request-Time: 1662165498	Content-Type: application/x-msgpack	X-Unity-Version: 2019.4.31f1	Content-Length: 125
+	Host: production-api.dragalialost.com
+	User-Agent: UnityPlayer/2019.4.31f1 (UnityWebRequest/1.0, libcurl/7.75.0-DEV)
+	Accept: */*
+	Accept-Encoding: deflate, gzip
+	App-Ver: 2.19.0
+	Device: 2
+	Platform: 2
+	Carrier: OnePlus
+	DeviceId: <device_id>
+	DeviceName: OnePlus ONEPLUS A6003
+	OS-Version: Android OS 11 / API-30 (RQ3A.210905.001/3c09da6222)
+	GraphicsDeviceName: Adreno (TM) 540
+	SID: 1a5a3cb1aa568946e14a539ae29b79f74c58858365dc2bb0dbe8d8e5150215ed
+	Deploy-Hash: 13bb2827ce9e6a66015ac2808112e3442740e862
+	Res-Ver: y2XM6giU6zz56wCm
+	Request-Token: 27886509621250185
+	Request-Time: 1662165498
+	Content-Type: application/x-msgpack
+	X-Unity-Version: 2019.4.31f1
+	Content-Length: 125
+
 
 Request body
 ----------------
@@ -34,7 +54,15 @@ Response headers
 
 .. code-block:: text
 
-	Content-Type: application/x-msgpack	Access-Control-Allow-Origin: *	Content-Length: 524	Expires: Sat, 03 Sep 2022 00:38:20 GMT	Cache-Control: max-age=0, no-cache, no-store	Pragma: no-cache	Date: Sat, 03 Sep 2022 00:38:20 GMT	Connection: keep-alive
+	Content-Type: application/x-msgpack
+	Access-Control-Allow-Origin: *
+	Content-Length: 524
+	Expires: Sat, 03 Sep 2022 00:38:20 GMT
+	Cache-Control: max-age=0, no-cache, no-store
+	Pragma: no-cache
+	Date: Sat, 03 Sep 2022 00:38:20 GMT
+	Connection: keep-alive
+
 
 Response
 ----------------
@@ -96,3 +124,52 @@ Response
 
 Notes
 ------
+
+**Table of buildup_piece_type values**
+
+.. list-table::
+   :widths: 25 50
+   :header-rows: 1
+
+   * - buildup_piece_type
+     - Description
+   * - 1
+     - Unbinding
+   * - 2
+     - ???
+   * - 3
+     - Wyrmprint slots
+   * - 4
+     - ???
+   * - 5
+     - ???
+   * - 6
+     - ???
+   * - 7
+     - HP & Strength
+
+**Sample requests:**
+Building up HP & Strength by 2 units:
+
+.. code-block:: json
+
+    {
+        "weapon_body_id": 30160204,
+        "buildup_weapon_body_piece_list": [
+            {
+                "buildup_piece_type": 7,
+                "buildup_piece_no": 1,
+                "step": 2,
+                "is_use_dedicated_material": 0
+            },
+            {
+                "buildup_piece_type": 7,
+                "buildup_piece_no": 1,
+                "step": 3,
+                "is_use_dedicated_material": 0
+            }
+        ]
+    }
+
+
+
