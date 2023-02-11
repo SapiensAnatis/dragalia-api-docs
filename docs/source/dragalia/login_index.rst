@@ -62,15 +62,64 @@ Response
 .. code-block:: json
 
 	{
-	    "data_headers": {
-	        "result_code": 160
-	    },
-	    "data": {
-	        "result_code": 160
-	    }
+		"data_headers": {
+			"result_code": 1
+		},
+		"data": {
+			"login_bonus_list": [
+				{
+					"reward_code": 1,
+					"login_bonus_id": 17,
+					"total_login_day": 540,
+					"reward_day": 0,
+					"entity_type": 0,
+					"entity_id": 0,
+					"entity_quantity": 0,
+					"entity_level": 0,
+					"entity_limit_break_count": 0
+				},
+				{
+					"reward_code": 1,
+					"login_bonus_id": 74,
+					"total_login_day": 2,
+					"reward_day": 0,
+					"entity_type": 0,
+					"entity_id": 0,
+					"entity_quantity": 0,
+					"entity_level": 0,
+					"entity_limit_break_count": 0
+				}
+			],
+			"login_lottery_reward_list": [
+				[
+				]
+			],
+			"dragon_contact_free_gift_count": 1,
+			"monthly_wall_receive_list": [
+				{
+					"quest_group_id": 21601,
+					"is_receive_reward": 2
+				}
+			],
+			"penalty_data": [
+			],
+			"exchange_summom_point_list": [
+			],
+			"before_exchange_summon_item_quantity": 0,
+			"server_time": 1648506926,
+			"update_data_list": {
+				"functional_maintenance_list": [
+				]
+			},
+			"entity_result": {
+				"converted_entity_list": [
+				]
+			}
+		}
 	}
+
 
 Notes
 ------
 
-:.. warning:: The above response is an error code -- I was unable to get a success response while using the proxy to see the traffic. On success, this endpoint will return :code:`"status_code": 1` and (if applicable) information about the login bonuses that the user has received.
+Notice: The response data was captured from an iOS device, which passed the safety check, while the request comes from an Android device that failed it. Yes, "summom_point" is the correct key name.
