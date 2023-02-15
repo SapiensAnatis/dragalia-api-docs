@@ -1,5 +1,5 @@
 /wall/receive_monthly_reward
-=======================
+=============================
 
 - Base address: production-api.dragalialost.com/2.19.0_20220714193707
 - Method: POST

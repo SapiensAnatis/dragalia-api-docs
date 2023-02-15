@@ -102,8 +102,6 @@ These are endpoints which may be possible to trigger, but which have yet to be d
      -
    * - UserWithdrawal
      -
-   * - WallStartStartAssignUnit
-     - See: :doc:`/dragalia/wall_start_start`. AssignUnit elsewhere forces you to use a particular unit
 
 
 Deprecated
