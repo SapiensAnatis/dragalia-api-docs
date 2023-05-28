@@ -121,4 +121,4 @@ Response
 
 Notes
 ------
-The response data was captured from an iOS device, which passed the safety check, while the request comes from an Android device that failed it. Yes, "summom_point" is the correct key name.
+The response data was captured from an iOS device, which passed the safety check, while the request comes from an Android device that failed it. Yes, "summo*m*_point" is the correct key name.
